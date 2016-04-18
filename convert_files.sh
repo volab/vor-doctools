@@ -6,7 +6,7 @@ DST_DIR=./          # Écrire ici le chemin vers le répertoire contenant les fi
 ### CHECK COMMANDS ###
 
 # command -v will return >0 when the $i is not found
-command -v libreoffice >/dev/null && continue || { echo "sync_a_file: command not found."; exit 1; }
+command -v libreoffice >/dev/null && continue || { echo "libreoffice: command not found."; exit 1; }
 
 ### CHECK ARGS ###
 
